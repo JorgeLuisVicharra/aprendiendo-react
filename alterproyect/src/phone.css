@@ -1,0 +1,160 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#navbar li{
+    padding:20px 10px;
+}
+#home{
+    /* background-color: aqua; */
+    height: 370px;
+    /* width: 100%; */
+    flex-direction: column;
+    padding: 3px 68px;
+
+}
+#home::before{
+    height:400px;
+}
+#home h1{
+    font-size: 13px;
+}
+.btn{
+    font-size:10px;
+    padding:10px 10px;
+}
+
+#services{
+    flex-direction: column;
+    margin:0px;
+}
+
+#about {
+    
+    flex-direction: column;
+}
+#about h1{
+    position: relative;
+    font-size: 30px;
+    padding: 1px 32px;
+    /* display: contents; */
+    /* padding:10px 40px; */
+}
+#about p{
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.about-section p{
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.btn1{
+    position: relative;
+    margin: 0px 0px;
+    margin-bottom: 20px;
+}
+#courses-section{
+    flex-direction:column;
+}
+#courses-section1{
+    flex-direction:column;
+}
+
+
+#courses h1 {
+    font-size: 35px;
+    padding: 40px 40px;
+}
+#courses-section {
+    display: flex;
+    padding: 10px 28px;
+    /* padding-left: 36px; */
+}
+#courses-section1{
+    display: flex;
+    padding: 10px 28px;
+    /* padding-left: 36px; */
+}
+.box-1{
+    display: grid;
+    border: 2px solid white;
+    width: 80%;
+    height: auto;
+    /* padding: 0px 30px; */
+    /* margin: 0px 15px; */
+    margin:auto;
+    transition: all 1s ease-in-out 1s;
+    margin-bottom: 40px;
+}
+#courses-section p{
+    position: relative;
+}
+.box-1 img,.box-2 img{
+    display: grid;
+    /* margin: 0px -30px; */
+    margin:auto;
+    width: 100%;
+    height: auto;
+}
+.btn3{
+    width:100%;
+}
+.workshop-section h1{
+    font-size: 26px;
+}
+
+#events-section{
+    
+    display: flex;
+    padding: 10px 28px;
+    flex-direction:column;
+}
+.box-2{
+    display: grid;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.box-2 h2{
+    margin-left: 0px;
+}
+#events h1 {
+    font-size: 35px;
+    padding: 40px 40px;
+}
+#events-section p{
+    margin-left: 0px;
+}
+
+.heading::before{
+    height: 300px;
+}
+.heading h1{
+    font-size: 30px;
+}
+.heading h2{
+    font-size: 20px;
+}
+.con h1{
+    font-size: 25px;
+}
+.form-page input,.form-page textarea{
+    width: 90%;
+    margin-left: 15px;
+    font-size: 15px;
+    padding:8px;
+}
+#btn-1{
+    display: grid;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+}
