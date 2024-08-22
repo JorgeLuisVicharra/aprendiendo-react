@@ -5,6 +5,10 @@ import viteLogo from '/vite.svg'
 import './style1.css'
 import Header from './componentes/header'
 import Navbar from './componentes/navbar'
+import About from './componentes/about'
+import Cursos from './componentes/cursos'
+import Eventos from './componentes/eventos'
+import Footer from './componentes/footer'
 
 function App() {
   
@@ -12,7 +16,10 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      
+      <About />
+      <Cursos />
+      <Eventos />
+      <Footer />
     </div>
     
   )
