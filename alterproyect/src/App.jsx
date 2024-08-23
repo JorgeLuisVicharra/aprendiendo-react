@@ -10,6 +10,8 @@ import Cursos from './componentes/cursos'
 import Eventos from './componentes/eventos'
 import Footer from './componentes/footer'
 
+
+
 function App() {
   
   return (
