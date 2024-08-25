@@ -3,6 +3,20 @@ import { Button,Form } from "react-bootstrap";
 
 
 const Formulario = () => {
+    const [nombre, setNombre] = useState('');
+    const [apellidos, setApellidos] = useState('');
+    const [celular, setCelular] = useState('');
+    const [lugar, setLugar] = useState('');
+
+    const realizarEnvio = (e) => {
+        e.preventDefault();
+        const newErrors = {};
+        if(!nombre) newErrors.nombre = 'El nombre es obligatorio';
+        if(!apellidos) newErrors.apellidos = 'Los apellidos son obligatorios';
+        if(!celular) newErrors.celular = 'El celular es obligatorio';
+        if(!lugar) newErrors.lugar = 'El lugar es obligatorio';
+        
+    }
 
     return(
         <>
